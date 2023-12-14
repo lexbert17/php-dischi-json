@@ -1,0 +1,52 @@
+.my_wrap{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(208.13deg 36.36% 17.25%);
+}
+header{
+    height: 80px;
+    background-color: hsl(208.8deg 67.57% 7.25%);
+}
+.logo{
+    height: 100%;
+    padding: 15px 200px;
+}
+.main{
+    height: calc(100vh - 80 px);
+}
+.ms_row{
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    padding: 1rem;
+
+     
+    
+}
+.ms_col{
+    height: 100%;
+    gap: 1rem;
+    padding-top: 1rem;
+
+}
+.ms_card{
+    display: flex;
+    margin: auto;
+    background-color: hsl(210deg 50% 12.55%);
+    color: white;
+    height: 100%;
+    
+    
+    
+}
+.ms_card img {
+    padding: 1rem 2rem;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.description{
+    text-align: center;
+    line-height: .8rem;
+    padding-bottom: 1rem;
+}
